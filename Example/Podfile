@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'Casty_Example' do
+  pod 'Casty', :path => '../'
+  pod 'google-cast-sdk'
+
+  target 'Casty_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
