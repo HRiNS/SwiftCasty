@@ -12,7 +12,7 @@ public class Casty: NSObject {
     
     public static var shared = Casty()
     
-    public static var castButton : GCKUICastButton?
+    public static var castButton = GCKUICastButton()
     public static var enableMediaWatchPosition: Bool = false
     public static var miniControllerIsShowing: Bool = true
     public static var miniControllerHeight: CGFloat = 70
