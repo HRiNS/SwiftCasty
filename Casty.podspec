@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Casty'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = 'A simple library to facilitate chromecast sdk integration'
 
   s.description      = <<-DESC
